@@ -5,16 +5,19 @@ class Navbar extends Component{
 
     render(){
         return(
-            <div className="body">
-                <h1 className="header">Jeet Shah</h1>
-                <hr/>
-                <div className="nav-links">
-                    <a>About</a>
-                    <a>Year In Review</a>
-                    <a>Experiences</a>
-                    <a>Portfolio</a>
+            <div className="nav-bar">
+
+                <div className="logo">
+                    <a>Jeet Shah</a>
                 </div>
-                <hr/>
+
+                <div className="nav-links">
+                    <a href="#">About</a>
+                    <a href="#">Year In Review</a>
+                    <a href="#">Experiences</a>
+                    <a href="#">Portfolio</a>
+                </div>
+
             </div>
         )
     }
