@@ -6,7 +6,7 @@ class Home extends Component{
     render(){
         return(
             <div className="container">
-                <h2>Welcome to my learning portfolio!</h2>
+                <h1>Welcome to my learning portfolio!</h1>
             </div>
         )
     }
