@@ -1,0 +1,70 @@
+.exp-page{
+    display: flex;
+    height: 100%;
+}
+
+.exp-grid{
+    display: flex;
+    width: 70%;
+    height: 70%;
+    margin: auto;
+    flex-wrap: wrap;
+    border-radius: 6px;
+}
+
+.europe{
+    flex: 3;
+    background-image: url("../../images/europe.jpg");
+    background-size: 100% 100%;
+}
+
+.right-side{
+    flex: 4;
+    display: flex;
+    flex-direction: column;
+}
+
+.lead-shape{
+    flex: 1;
+    background-image: url("../../images/leadshape.jpg");
+    background-size: 100% 100%;
+}
+
+.personal-site{
+    flex: 1;
+    background-image: url("../../images/mac.jpeg");
+    background-size: 100% 100%;
+}
+
+.link-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+    margin: 2px;
+    transition: all .2s;
+}
+
+.link-box:hover{
+    border: 6px solid #fff;
+    background-size: 110% 110%;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.link-box h2{
+    margin: auto;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+@media(max-width: 600px){
+    .exp-grid{
+        height: 85%;
+        flex-direction: column;
+    }
+
+    .link-box{
+        height: 120px;
+    }
+}

@@ -1,0 +1,44 @@
+.year-page{
+    display: flex;
+    height: 100%;
+}
+
+.year-grid{
+    display: flex;
+    width: 70%;
+    height: 70%;
+    margin: auto;
+    flex-wrap: wrap;
+    border-radius: 6px;
+}
+
+.first{
+    flex: 3;
+    background-image: url("../../images/gorge.jpeg");
+    background-size: 100% 100%;
+}
+
+.right-side{
+    flex: 4;
+    display: flex;
+    flex-direction: column;
+}
+
+.second{
+    flex: 1;
+    background-image: url("../../images/baldwin_orig.jpg");
+    background-size: 100% 100%;
+}
+
+.third{
+    flex: 1;
+    background-image: url("../../images/notebook.jpeg");
+    background-size: 100% 100%;
+}
+
+@media(max-width: 600px){
+    .year-grid{
+        height: 85%;
+        flex-direction: column;
+    }
+}

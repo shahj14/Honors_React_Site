@@ -1,4 +1,7 @@
 .App{
   color: #464746;
   font-family: 'Raleway', 'sans-serif';
+  height: 100%;
+  display: flex;
+  flex-direction: column;
 }
