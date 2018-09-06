@@ -14,7 +14,7 @@
 
 .europe{
     flex: 3;
-    background-image: url("../../images/europe.jpg");
+    background-image: url("../../images/italy.jpeg");
     background-size: 100% 100%;
 }
 
@@ -48,7 +48,6 @@
 .link-box:hover{
     border: 6px solid #fff;
     background-size: 110% 110%;
-    border-radius: 5px;
     cursor: pointer;
 }
 
@@ -66,5 +65,8 @@
 
     .link-box{
         height: 120px;
+    }
+    .link-box h2{
+        font-size: 25px;
     }
 }
