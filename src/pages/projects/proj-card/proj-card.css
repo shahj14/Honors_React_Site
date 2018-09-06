@@ -11,7 +11,7 @@
     z-index: 1;
 }
 
-img{
+.card-pic{
     width: 100%;
     object-fit: cover;
 }
