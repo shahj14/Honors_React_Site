@@ -1,4 +1,5 @@
 import React, {Component} from 'react'
+import {Link} from 'react-router-dom'
 import './year-review.css'
 
 class YearReview extends Component{
@@ -6,16 +7,16 @@ class YearReview extends Component{
         return(
             <div className="year-page">
                 <div className="year-grid">
-                    <div className="first link-box">
+                    <Link to="/year-review/2016" className="first link-box">
                         <h2>2016 - 2017</h2>
-                    </div>
+                    </Link>
                     <div className="right-side">
-                        <div className="second link-box">
+                        <Link to="/year-review/2017" className="second link-box">
                             <h2>2017 - 2018</h2>
-                        </div>
-                        <div className="third link-box">
+                        </Link>
+                        <Link to="/year-review/2018" className="third link-box">
                             <h2>2018 - 2019</h2>
-                        </div>
+                        </Link>
                     </div>
                 </div>
             </div>

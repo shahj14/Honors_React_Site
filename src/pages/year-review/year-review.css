@@ -6,8 +6,8 @@
 .year-grid{
     display: flex;
     width: 70%;
-    height: 70%;
-    margin: auto;
+    height: 70vh;
+    margin: 11vh auto;
     flex-wrap: wrap;
     border-radius: 6px;
 }
