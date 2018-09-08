@@ -1,6 +1,7 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Jeet Shah",
+  "name": "My Personal Website",
+  "author": "Jeet Shah",
   "icons": [
     {
       "src": "favicon.ico",
