@@ -9,8 +9,9 @@ class Home extends Component{
                 <img className="home-background" src="night_sky.jpeg" alt=""/>
                 <div className="home-content">
                     <h1 className="home-title">&lt;Developer/&gt;</h1>
-                    <div>
-                        <button className="home-button">Resume</button>
+                    <div className="home-button-container">
+                        <a href="https://docs.google.com/document/d/1SYjNTrmshMA6aSTStKdPdqv1qxczVzJdLipOhOwn23g/edit?usp=sharing" target="_blank"
+                                rel="noopener noreferrer" className="home-button">Resume</a>
                         <button className="home-button">Contact Me</button>
                     </div>
                 </div>

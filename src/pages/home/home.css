@@ -21,7 +21,7 @@
 }
 
 .home-title{
-    font-size: 60px;
+    font-size: 70px;
     text-align: center;
     color: #fff;
 }
@@ -34,7 +34,7 @@
     padding: 15px 0;
     width: 200px;
     display: inline-block;
-    margin: 15px 20px;
+    margin: 10px 20px;
     text-transform: uppercase;
     letter-spacing: 1px;
     font-weight: 400;
@@ -47,11 +47,14 @@
     -moz-transition: none;
     transition: none;
     border-radius: 0 0 5px 5px;
+    text-align: center;
 }
 
 .home-button:hover {
     box-shadow: 0 4px #132c56;
     top: 2px;
+    color: #fff;
+    text-decoration: none;
 }
 
 .home-button:active {
@@ -61,4 +64,15 @@
 
 .home-button:focus{
     outline: none;
+}
+
+@media(max-width: 600px){
+    .home-button-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .home-title{
+        font-size: 50px;
+    }
 }
