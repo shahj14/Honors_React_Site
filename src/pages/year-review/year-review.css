@@ -1,6 +1,7 @@
 .year-page{
     display: flex;
     height: 100%;
+    align-items: center;
 }
 
 .year-grid{
@@ -14,8 +15,6 @@
 
 .first{
     flex: 3;
-    background-image: url("../../images/gorge.jpeg");
-    background-size: 100% 100%;
 }
 
 .right-side{
@@ -26,14 +25,10 @@
 
 .second{
     flex: 1;
-    background-image: url("../../images/baldwin_orig.jpg");
-    background-size: 100% 100%;
 }
 
 .third{
     flex: 1;
-    background-image: url("../../images/notebook.jpeg");
-    background-size: 100% 100%;
 }
 
 @media(max-width: 600px){

@@ -15,8 +15,6 @@
 
 .europe{
     flex: 3;
-    background-image: url("../../images/italy.jpeg");
-    background-size: 100% 100%;
 }
 
 .right-side{
@@ -27,14 +25,32 @@
 
 .lead-shape{
     flex: 1;
-    background-image: url("../../images/leadshape.jpg");
-    background-size: 100% 100%;
 }
 
 .personal-site{
     flex: 1;
-    background-image: url("../../images/mac.jpeg");
+}
+
+.link-box-image{
+    width: 100%;
+    height: 100%;
     background-size: 100% 100%;
+    object-fit: cover;
+}
+
+.link-title{
+    position: absolute;
+    top: 50%;
+}
+
+.link-title-top{
+    position: absolute;
+    top: 35%;
+}
+
+.link-title-bottom{
+    position: absolute;
+    top: 70%;
 }
 
 .link-box{
@@ -48,14 +64,8 @@
 
 .link-box:hover{
     border: 6px solid #fcfeff;
-    background-size: 110% 110%;
     cursor: pointer;
 }
-
-/*.link-box:hover h2, .link-box:hover a{*/
-    /*color: #fff;*/
-    /*text-decoration: none;*/
-/*}*/
 
 .link-box h2{
     margin: auto;
@@ -68,17 +78,30 @@ a.link-box{
     text-decoration: none;
 }
 
-@media(max-width: 600px){
+@media(max-width:900px){
     .exp-grid{
         height: 600px;
         margin: 5vh auto;
         flex-direction: column;
     }
-
     .link-box{
         height: 120px;
     }
-    .link-box h2{
+    .link-title{
+        position: absolute;
+        top: 30%;
+        font-size: 25px;
+    }
+
+    .link-title-top{
+        position: absolute;
+        top: 60%;
+        font-size: 25px;
+    }
+
+    .link-title-bottom{
+        position: absolute;
+        top: 85%;
         font-size: 25px;
     }
 }

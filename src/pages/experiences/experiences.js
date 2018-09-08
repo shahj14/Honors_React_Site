@@ -1,7 +1,6 @@
 import React, {Component} from 'react';
-import './experiences.css';
 import {Link} from 'react-router-dom'
-
+import './experiences.css';
 
 class Experiences extends Component{
 
@@ -10,14 +9,17 @@ class Experiences extends Component{
             <div className="exp-page">
                 <div className="exp-grid">
                     <Link to="/experiences/europe-trip" className="europe link-box">
-                        <h2>Europe Trip 2k18</h2>
+                        <img className="link-box-image" src="italy.jpeg" alt="Italy"/>
+                        <h2 className="link-title">Europe Trip 2k18</h2>
                     </Link>
                     <div className="right-side">
                         <Link to="/experiences/leadershape" className="lead-shape link-box">
-                            <h2>Leadershape</h2>
+                            <img className="link-box-image" src="leadshape.jpg" alt="Leadershape"/>
+                            <h2 className="link-title-top">Leadershape</h2>
                         </Link>
                         <Link to="/experiences/personal-site" className="personal-site link-box">
-                            <h2>My Personal Site</h2>
+                            <img className="link-box-image" src="mac.jpeg" alt="Mac"/>
+                            <h2 className="link-title-bottom">My Personal Site</h2>
                         </Link>
                     </div>
                 </div>
