@@ -47,7 +47,7 @@
 }
 
 .link-box:hover{
-    border: 6px solid #fff;
+    border: 6px solid #fcfeff;
     background-size: 110% 110%;
     cursor: pointer;
 }

@@ -1,11 +1,13 @@
 import React from 'react'
 import Article from '../partials/article'
+import PhotoCap from '../partials/photo-cap'
 
 const SecondYear = () => {
     return(
         <Article title="2nd Year in Review" author="Jeet Shah" date="06/20/2018">
+            <PhotoCap image="ucdm_group.jpg" caption="The Exec team of UC Dance Marathon. Very glad I got the opportunity to work with this amazing group"/>
             <p>My second year was amazing in regard to the organizations I was a part of,
-                the work experiences I received, and the events that I attended. This hasbeen a big time year
+                the work experiences I received, and the events that I attended. This has been a big time year
                 of growth for me and I'm very happy with how it went.I decided to focus a lot of my time this year
                 on professional self-improvement and also bettering organizations that I cared about. I started to
                 spend more time on Dance Marathon and Engineering Ambassadors because I felt strongly that those two

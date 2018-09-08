@@ -1,0 +1,29 @@
+.photo-container{
+    width: 50%;
+    margin: 0 auto 2% auto;
+    border: 1px solid #ccc;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 0 0 8px 8px;
+}
+
+.photo-cap-image{
+    width: 100%;
+    object-fit: cover;
+}
+
+.photo-cap-caption{
+    margin: 0;
+    font-size: 15px;
+    padding: 1%;
+}
+
+@media(max-width: 800px){
+    .photo-container{
+        width: 75%
+    }
+    .photo-cap-caption{
+        font-size: 13px;
+    }
+}
