@@ -70,7 +70,8 @@ a.link-box{
 
 @media(max-width: 600px){
     .exp-grid{
-        height: 85%;
+        height: 600px;
+        margin: 5vh auto;
         flex-direction: column;
     }
 
