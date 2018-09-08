@@ -9,8 +9,8 @@ class ProjCard extends Component{
                 <img className="card-pic" src={this.props.img} alt={this.props.title}/>
                 <h4>{this.props.title}</h4>
                 <p className="description">{this.props.children}</p>
-                <p className="link-site"><a href={this.props.link}>{this.props.link}</a></p>
-                <p ><a href={this.props.github} className="github">Code on Github</a></p>
+                <p className="link-site"><a target="_blank" rel="noopener noreferrer" href={this.props.link}>{this.props.link}</a></p>
+                <p ><a target="_blank" rel="noopener noreferrer" href={this.props.github} className="github">Code on Github</a></p>
             </div>
         )
     }

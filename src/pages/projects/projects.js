@@ -21,7 +21,7 @@ class Projects extends Component{
                     </ProjCard>
 
                     <ProjCard title="Engineering Ambassadors" img="ceas_site.png" link="https://ucceasambassadors.com/" github="https://github.com/kurtlewis/ceas-ambassadors-website">
-                        Site to manage tours, meetings, and member profiles. This project was led by <a href="https://github.com/kurtlewis/">Kurt Lewis</a> with my focus being on developing the front-end of the site
+                        Site to manage tours, meetings, and member profiles. This project was led by <a target="_blank" rel="noopener noreferrer" href="https://github.com/kurtlewis/">Kurt Lewis</a> with my focus being on developing the front-end of the site
                     </ProjCard>
 
                 </div>
