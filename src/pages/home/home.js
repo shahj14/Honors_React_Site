@@ -6,7 +6,6 @@ class Home extends Component{
     render(){
         return(
             <div className="home-container">
-                <img className="home-background" src={require("../../media/night_sky.jpeg")} alt=""/>
                 <div className="home-content">
                     <h1 className="home-title">&lt;Developer/&gt;</h1>
                     <div className="home-button-container">

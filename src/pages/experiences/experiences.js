@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import {Link} from 'react-router-dom'
+import GridBox from '../../partials/grid-box'
 import './experiences.css';
 
 class Experiences extends Component{
@@ -9,17 +10,14 @@ class Experiences extends Component{
             <div className="exp-page">
                 <div className="exp-grid">
                     <Link to="/experiences/europe-trip" className="europe link-box">
-                        <img className="link-box-image" src={require("../../media/italy.jpeg")} alt="Italy"/>
-                        <h2 className="link-title">Europe Trip 2k18</h2>
+                        <GridBox image="italy.jpeg" title="Europe Trip 2k18"/>
                     </Link>
                     <div className="right-side">
                         <Link to="/experiences/leadershape" className="lead-shape link-box">
-                            <img className="link-box-image" src={require("../../media/leadshape.jpg")} alt="Leadershape"/>
-                            <h2 className="link-title-top">Leadershape</h2>
+                            <GridBox image="leadshape.jpg" title="Leadershape"/>
                         </Link>
                         <Link to="/experiences/personal-site" className="personal-site link-box">
-                            <img className="link-box-image" src={require("../../media/mac.jpeg")} alt="Mac"/>
-                            <h2 className="link-title-bottom">My Personal Site</h2>
+                            <GridBox image="mac.jpeg" title="Personal Site"/>
                         </Link>
                     </div>
                 </div>
