@@ -43,4 +43,7 @@
         margin: 5vh auto;
         flex-direction: column;
     }
+    .first{
+        flex: 2;
+    }
 }

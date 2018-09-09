@@ -70,13 +70,13 @@ a.link-box{
     text-decoration: none;
 }
 
-@media(max-width:900px){
+@media(max-width:600px){
     .exp-grid{
         height: 600px;
         margin: 5vh auto;
         flex-direction: column;
     }
-    .link-box{
-        height: 120px;
+    .europe{
+        flex: 2;
     }
 }
