@@ -9,9 +9,9 @@ class Home extends Component{
                 <div className="home-content">
                     <h1 className="home-title">&lt;Developer/&gt;</h1>
                     <div className="home-button-container">
-                        <a href="https://docs.google.com/document/d/1SYjNTrmshMA6aSTStKdPdqv1qxczVzJdLipOhOwn23g/edit?usp=sharing" target="_blank"
+                        <a href="https://drive.google.com/file/d/1_KnGKM4Okn8AKG4L0jSlEso8nzkRWKAH/view" target="_blank"
                                 rel="noopener noreferrer" className="home-button">Resume</a>
-                        <button className="home-button">Contact Me</button>
+                        <a href="mailto:jeetshah4321@gmail.com" className="home-button">Contact Me</a>
                     </div>
                 </div>
             </div>

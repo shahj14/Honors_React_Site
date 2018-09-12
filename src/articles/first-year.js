@@ -5,7 +5,7 @@ import PhotoCap from '../partials/photo-cap'
 const FirstYear = () => {
     return(
         <Article title="1st Year in Review" author="Jeet Shah" date="06/27/2017">
-            <PhotoCap image="red_gorge.jpg" caption="Red River Gorge, where freshman year's fraternity retreat was held"/>
+            <PhotoCap image="gorge_group.jpg" caption="My friends and I at Red River Gorge freshman year, where our first fraternity retreat was held"/>
 
             <p>My freshman year was absolutely amazing in regard to the organizations I joined, the work experiences I received, and the events that I attended.
                 Going into college I had no idea what to expect about all of this. But after one year in college, I must say, it was way better than I expected.</p>
