@@ -6,6 +6,16 @@ const Leadershape = () => {
     return(
         <Article title="Reflection on Leadershape" author="Jeet Shah" date="01/13/2017">
             <PhotoCap image="leadshape_jump.jpg" caption="An action shot of my group at Leadershape!"/>
+
+
+            <div className="lead-info" style={{"display": 'flex', 'flex-direction': 'column'}}>
+                <h4 style={{'align-self': 'center'}}>What is Leadershape?</h4>
+                <ul>
+                    <li>5 day retreat with students from the UC Honors Program</li>
+                    <li>Focuses on building leadership and collaboration skills</li>
+                    <li>Great way to meet campus leaders and faculty</li>
+                </ul>
+            </div>
             <p>Entering Leadershape, I wasn't sure of what to expect because even though I had only learned good things, I didn't know what I would learn.
                 I now see leadership as a role that does not have just one definition. One does not have to be super outgoing and perfect to be a great leader.
                 There are silent leaders who lead through their actions rather than words, and there are charismatic leaders who have the ability to

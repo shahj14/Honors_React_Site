@@ -14,7 +14,7 @@ class Experiences extends Component{
                     </Link>
                     <div className="right-side">
                         <Link to="/experiences/leadershape" className="lead-shape link-box">
-                            <GridBox image="leadshape.jpg" title="Leadershape"/>
+                            <GridBox image="leadshape.jpg" title="LeaderShape"/>
                         </Link>
                         <Link to="/experiences/personal-site" className="personal-site link-box">
                             <GridBox image="mac.jpeg" title="Personal Site"/>
