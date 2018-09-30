@@ -12,12 +12,16 @@ class Projects extends Component{
                         A crowd-sourced application to help students find open seats at the campus library. Built with React, NodeJS, and Express and hosted with Heroku
                     </ProjCard>
 
-                    <ProjCard title="Personal Site" img="personal_site.png" link="http://www.jeetshah.net" github="http://github.com/shahj14/Personal_Site">
-                        My personal site for showcasing my UC Honors experiences and my tech projects! Developed using React and hosted with Github Pages
-                    </ProjCard>
-
                     <ProjCard title="Budget4ACause" img="budget.png" github="http://github.com/hamptokr/budgetforacause">
                         A tool for managing personal finances while making room to give to local non-profits. Built during RevUC Hackathon using NodeJS, Express and MySQL
+                    </ProjCard>
+
+                    <ProjCard title="TweetPositive" img="tweetpositive.png" github="http://github.com/shahj14/TweetPositive">
+                        Utilizes sentimental analysis and the Twitter API to determine the "positivity" of Twitter profiles and keywords. Built using Python's Flask microframework during the MakeUC Hackathon
+                    </ProjCard>
+
+                    <ProjCard title="Personal Site" img="personal_site.png" link="http://www.jeetshah.net" github="http://github.com/shahj14/Personal_Site">
+                        My personal site for showcasing my UC Honors experiences and my tech projects! Developed using React and hosted with Github Pages
                     </ProjCard>
 
                     <ProjCard title="Engineering Ambassadors" img="ceas_site.png" link="http://ucceasambassadors.com/" github="http://github.com/kurtlewis/ceas-ambassadors-website">
