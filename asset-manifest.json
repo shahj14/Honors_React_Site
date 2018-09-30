@@ -1,8 +1,8 @@
 {
   "main.css": "static/css/main.79e205e1.css",
   "main.css.map": "static/css/main.79e205e1.css.map",
-  "main.js": "static/js/main.36150997.js",
-  "main.js.map": "static/js/main.36150997.js.map",
+  "main.js": "static/js/main.18888131.js",
+  "main.js.map": "static/js/main.18888131.js.map",
   "static/media/baldwin_orig.jpg": "static/media/baldwin_orig.5431c943.jpg",
   "static/media/budget.png": "static/media/budget.d964b12a.png",
   "static/media/ceas_site.png": "static/media/ceas_site.b9b11c3e.png",
@@ -20,6 +20,7 @@
   "static/media/openstudy.png": "static/media/openstudy.5599cb09.png",
   "static/media/personal_site.png": "static/media/personal_site.9bae1586.png",
   "static/media/red_gorge.jpg": "static/media/red_gorge.d36b80c9.jpg",
+  "static/media/tweetpositive.png": "static/media/tweetpositive.b19b9417.png",
   "static/media/ucdm_group.jpg": "static/media/ucdm_group.07703dae.jpg",
   "static/media/ucdm_lead.jpg": "static/media/ucdm_lead.cac6370a.jpg"
 }
